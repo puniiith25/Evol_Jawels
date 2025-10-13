@@ -73,14 +73,14 @@ const StyleSelectPage = () => {
                             onClick={() => navigate('/welcome')}
                             className="flex items-center justify-center border border-gray-200 px-3 py-3 text-black text-sm font-medium rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
                         >
-                            <CircleArrowLeftIcon className="mr-2" /> Back to Home
+                            <CircleArrowLeftIcon className="mr-2" /> Previous
                         </button>
 
                         <button
-                            onClick={() => navigate('/nextPage')}
+                            onClick={() => navigate('/occasion')}
                             className="flex items-center justify-center px-10 py-3 bg-gray-900 text-white text-sm font-medium rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
                         >
-                            Let's begin!
+                            Next
                         </button>
                     </div>
                 </div>
